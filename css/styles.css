@@ -1,0 +1,175 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.42857;
+  color: #45506d;
+  background-color: rgb(230, 235, 255);
+  margin: 0;
+}
+
+.topBanner {
+  background: url("../images/cover.png") top left / cover no-repeat;
+
+
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  h1 {
+    width: 55%;
+    font-size: 42px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+  };
+
+  h2 {
+    width: 55%;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    color: #bfe8f6;
+  };
+
+  .logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 210px;
+    height: auto;
+  }
+} 
+
+
+section {
+  padding: 40px;
+
+  h1 {
+    text-align: center;
+    color:midnightblue;
+  };
+
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 24px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  };
+
+  h3 {
+    margin-top: 45px;
+    font-size: 22px;
+    text-align: left;
+  };
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.card-item-dark {
+  height: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  background-image: linear-gradient(0deg, #1f3991 0%, #3377ff 100%);
+  color: rgb(212, 248, 255);
+  align-items: center;
+
+  h1 {
+    font-size: 32px;
+    color: white;
+  };
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+}
+
+.card-item-light {
+  height: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: white;
+
+  h1 {
+    font-size: 32px;
+  };
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+}
+
+.contacts {
+
+  h1 {
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+  }
+  
+  color: white;
+  background-color: rgb(5, 11, 71);
+
+
+  img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+.text-frame {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  margin-top: 60px;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: linear-gradient(0deg, #1f3991 0%, #3377ff 100%);
+  color: white;
+  font-size: 22px;
+
+
+  img {
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+}
